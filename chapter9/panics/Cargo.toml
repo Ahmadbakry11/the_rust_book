@@ -1,0 +1,9 @@
+[profile.release]
+panic = 'abort'
+
+[package]
+name = "panics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
