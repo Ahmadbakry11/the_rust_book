@@ -10,9 +10,6 @@ fn main() {
         process::exit(1);
     });
     
-    println!("We are seraching for {}", config.query);
-    println!("In the file: {}", config.file_path);
-
     if let Err(error) = minigrep::run(config) {
         println!("Aplication Error: {error}");
         process::exit(1);
